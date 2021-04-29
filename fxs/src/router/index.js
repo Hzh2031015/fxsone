@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
 import hzhrouter from "../views/hzh/hzhRouter.js"
 import cylrouter from "../views/cyl/cylrouter.js";
 Vue.use(VueRouter)
@@ -8,7 +7,6 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: "/",
-
     redirect: "/home",
   },
   {
