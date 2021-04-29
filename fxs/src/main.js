@@ -10,6 +10,10 @@ import "@/assets/css/reset.css";
 import "@/assets/js/app.js";
 // 引入rem布局
 
+import "/public/iconfont/demo.css";
+import "/public/iconfont/iconfont.css";
+
+// 引入公共样式
 Vue.config.productionTip = false
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
