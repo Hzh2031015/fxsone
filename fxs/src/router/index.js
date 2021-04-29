@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import qmtrouter from"../views/qmt/router.js"
 import hzhrouter from "../views/hzh/hzhRouter.js"
 import cylrouter from "../views/cyl/cylrouter.js";
 Vue.use(VueRouter)
@@ -28,6 +29,7 @@ const routes = [
   },
   ...hzhrouter,
   ...cylrouter,
+  ...qmtrouter
 ];
 
 const router = new VueRouter({
