@@ -30,6 +30,7 @@ export default {
 header {
   width: 100%;
   display: flex;
+  background-color: #fff;
   img {
     margin: 16px;
     width: 1.9rem;

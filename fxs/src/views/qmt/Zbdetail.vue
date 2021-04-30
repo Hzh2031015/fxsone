@@ -1,5 +1,6 @@
 <template>
   <div class>
+    <heads>工地直播</heads>
     <p class="pp">
       观澜时代国际花园云邸5幢
       <span class="sp1">泥木工程</span>
@@ -68,29 +69,31 @@
         <img src="/pic/zb3.png" alt />
       </div>
       <div class="a">
-          <p class="sec-bottom">
-      房先森互联网家装有别于传统装修公司与其他装修中
-      介平台，以自营模式整合设计师与项目经理，
-      杜绝项目转
-      包外包，利用互联网将工地进行在线全景直播，
-      通过去中
-      间环节，
-      提供装修套餐+个性化定制服务。
-    </p>
+        <p class="sec-bottom">
+          房先森互联网家装有别于传统装修公司与其他装修中
+          介平台，以自营模式整合设计师与项目经理，
+          杜绝项目转
+          包外包，利用互联网将工地进行在线全景直播，
+          通过去中
+          间环节，
+          提供装修套餐+个性化定制服务。
+        </p>
       </div>
-      
     </section>
-    
   </div>
 </template>
 
 <script>
+import heads from "@/components/head.vue";
 export default {
   data() {
     return {};
   },
   mounted() {},
-  methods: {}
+  methods: {},
+  components: {
+    heads
+  }
 };
 </script>
 
@@ -232,17 +235,16 @@ section {
     width: 100%;
   }
 }
-.a{
-    width: 100%;
-    background-color: #fff;
-    .sec-bottom{
+.a {
+  width: 100%;
+  background-color: #fff;
+  .sec-bottom {
     width: 95%;
-    margin: .2rem auto;
-    padding: .2rem 0;
-    font-size: .3rem;
-    line-height: .52rem;
+    margin: 0.2rem auto;
+    padding: 0.2rem 0;
+    font-size: 0.3rem;
+    line-height: 0.52rem;
     text-indent: 2em;
+  }
 }
-}
-
 </style>
