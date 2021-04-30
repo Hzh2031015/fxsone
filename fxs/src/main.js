@@ -12,6 +12,8 @@ import "@/assets/js/app.js";
 
 import "/public/iconfont/demo.css";
 import "/public/iconfont/iconfont.css";
+import "/public/iconfont/iconfont.js";
+
 
 // 引入公共样式
 Vue.config.productionTip = false

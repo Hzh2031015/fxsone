@@ -1,8 +1,9 @@
 <template>
   <div class="">
-    <header>
+    <van-sticky>
+  <header>
       <img src="/logo.png" alt="" />
-      <h5><slot>首页</slot></h5>
+      <h5><slot></slot></h5>
       <div class="ico">
         <i class="icon iconfont icon-user use"></i>
         <div class="name">我的</div>
@@ -12,6 +13,8 @@
                     <div class="name">导航</div>
       </div>
     </header>
+</van-sticky>
+    
   </div>
    
 </template>
@@ -30,6 +33,7 @@ export default {
 header {
   width: 100%;
   display: flex;
+  background-color: #fff;
   img {
     margin: 16px;
     width: 1.9rem;
