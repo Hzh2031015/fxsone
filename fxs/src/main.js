@@ -12,8 +12,8 @@ import "@/assets/js/app.js";
 
 import "/public/iconfont/demo.css";
 import "/public/iconfont/iconfont.css";
-import "/public/iconfont/iconfont.js";
 
+import "/public/iconfont/iconfont.js"
 
 // 引入公共样式
 Vue.config.productionTip = false
@@ -34,6 +34,8 @@ Vue.prototype.$axios=axios
 import http from './http/http'
 Vue.prototype.$http=http
 // 引入http
+
+
 
 
 //时间，几天前的过滤器 
