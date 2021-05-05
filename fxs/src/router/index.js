@@ -3,6 +3,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import hzhrouter from "../views/hzh/hzhRouter.js"
 import cylrouter from "../views/cyl/cylrouter.js";
+import ytrouter from"../views/yt/ytrouter.js"
 Vue.use(VueRouter)
 
 const routes = [
@@ -28,6 +29,7 @@ const routes = [
   },
   ...hzhrouter,
   ...cylrouter,
+  ...ytrouter,
 ];
 
 const router = new VueRouter({
