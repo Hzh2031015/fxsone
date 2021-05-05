@@ -7,6 +7,8 @@ import qmtrouter from"../views/qmt/router.js"
 import hzhrouter from "../views/hzh/hzhRouter.js"
 import cylrouter from "../views/cyl/cylrouter.js";
 import ytrouter from"../views/yt/ytrouter.js"
+import zyprouter from "../views/zyp/zyprouter.js";
+
 Vue.use(VueRouter)
 
 const routes = [
@@ -35,6 +37,8 @@ const routes = [
   ...qmtrouter,
 
   ...ytrouter,
+  ...zyprouter,
+
 
 ];
 
