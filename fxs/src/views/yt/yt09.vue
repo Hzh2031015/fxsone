@@ -80,8 +80,5 @@ export default {
     width: 100%;
     overflow: hidden;
     height: 1.5rem;
-    li{
-        width: 30%;
-    }
 }
 </style>
