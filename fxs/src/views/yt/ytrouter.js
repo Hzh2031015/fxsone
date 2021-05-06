@@ -11,7 +11,7 @@ export default [  {
   {
     path: '/yt09',
     name: 'yt09',
-    component: () => import( '../yt/Yt09.vue')
+    component: () => import( '../yt/yt09.vue')
   },
   {
     path: '/yt12',

@@ -4,39 +4,39 @@
     <bann />
     <div class="nav">
       <ul class="o-nav">
-        <li>
-          <i class="iconfont icon-case"></i>
+        <li @click="fa">
+          <i class="iconfont icon-case" ></i>
           <p>装修方案</p>
         </li>
-        <li>
+        <li @click="tu">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>效果图</p>
         </li>
-        <li>
+        <li @click="sj">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>设计师</p>
         </li>
-        <li>
+        <li @click="gd">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>装修工地</p>
         </li>
       </ul>
       <ul class="t-nav">
-        <li>
+        <li @click="gl">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>装修攻略</p>
         </li>
-        <li>
+        <li @click="dk">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>装修贷款</p>
         </li>
-        <li>
+        <li @click="yy">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>免费预约</p>
         </li>
-        <li>
+        <li @click="bj">
           <i class="iconfont icon-case"></i>
-          <p>装修方案</p>
+          <p>十秒报价</p>
         </li>
       </ul>
     </div>
@@ -233,7 +233,33 @@ export default {
     return {};
   },
   mounted() {},
-  methods: {},
+  methods: {
+    fa(){
+      this.$router.push("/trim")
+    },
+    tu(){
+      this.$router.push("/hzhfour")
+
+    },
+    dk(){
+       this.$router.push("/zyp16")
+    },
+    sj(){
+       this.$router.push("/yt12")
+    },
+    gd(){
+      this.$router.push("/hzhten")
+    },
+    gl(){
+      this.$router.push("/hzhtwo")
+    },
+    yy(){
+       this.$router.push("/hzhtwo")
+    },
+    bj(){
+       this.$router.push("/zyp15")
+    }
+  },
 };
 </script>
 

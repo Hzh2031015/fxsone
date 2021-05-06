@@ -1,5 +1,6 @@
 <template>
   <div class>
+    <heads/>
     <header>
       <ul>
         <li>
@@ -170,12 +171,16 @@
 </template>
 
 <script>
+import heads from "@/components/head.vue"
 export default {
   data() {
     return {};
   },
   mounted() {},
-  methods: {}
+  methods: {},
+  components:{
+    heads
+  }
 };
 </script>
 
